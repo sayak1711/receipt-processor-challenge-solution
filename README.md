@@ -30,3 +30,12 @@ Takes in a JSON receipt (see example in the example directory) and returns a JSO
 
 The ID returned is the ID that should be passed into `/receipts/{id}/points` to get the number of points the receipt
 was awarded.
+
+
+## Endpoint: Get Points
+
+* Path: `/receipts/{id}/points`
+* Method: `GET`
+* Response: A JSON object containing the number of points awarded.
+
+A simple Getter endpoint that looks up the receipt by the ID and returns an object specifying the points awarded.
