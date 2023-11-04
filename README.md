@@ -3,13 +3,15 @@
 
 ## Step1: Commands to run this application using Docker:
 
-docker build -t fetch-receipts-app .
-docker run -d -p 8000:8000 fetch-receipts-app
+`docker build -t fetch-receipts-app .`
+
+`docker run -d -p 8000:8000 fetch-receipts-app`
 
 
 ## Step2: Use the application endpoints (just as it is mentioned in the question):
 
 `POST http://localhost:8000/receipts/process`
+
 `GET http://localhost:8000/{id}/points`
 
 ---
