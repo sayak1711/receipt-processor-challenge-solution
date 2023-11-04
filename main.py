@@ -1,4 +1,3 @@
-# main.py
 from fastapi import FastAPI
 from app.controllers import receipt_controller
 
